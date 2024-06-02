@@ -11,8 +11,7 @@ function UserList({ users, deleteUser }) {
           return (
             <div className="card" key={user.id}>
               <div className="card-inner">
-                <img
-                  src={user.imageUrl}
+                <img src={user.imageUrl}
                   alt={user.name}
                   width="150"
                   height="150"
